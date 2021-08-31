@@ -48,7 +48,8 @@ const CardList =(props)=> {
  
   return (
    <div style={{marginTop:"20px"}}>
-       {props.profiles.map(profile=><Card  {...profile} />)}   
+       {props.profiles.map(profile=><Card  {...profile} />)}  
+       
    </div>
    
   )
